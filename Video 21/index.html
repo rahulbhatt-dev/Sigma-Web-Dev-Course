@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Properties priority(Cascade algo)</title>
     <style>
+        /* Important(+10000) > inline > ID > Class or attribute > element > Universal */
+        /* if same specifity then order is considered, last one wins */
+        
         /* The specificity of this selector is 1  */
         h1 {
             color: aqua;
