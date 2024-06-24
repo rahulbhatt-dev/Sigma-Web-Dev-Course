@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercise -3</title>
+    <style>
+        .master{
+            background-color: lightgray;
+            display: flex;
+        }
+        div {
+            padding: 10px;
+            position: relative;
+            background-color: white;
+            /* margin-left: auto;
+            margin-right: auto; */
+        }
+
+        .parent {
+            border-radius: 25px;
+            width: 25vw;
+            height: 95vh;
+            /* padding: 15px; */
+            border: 1px solid grey;
+            /* margin: 20px; */
+            box-sizing: border-box;
+            padding: 10px;
+            box-shadow: 0px 1px 17px 0px;
+            margin:20px;
+        }
+
+        img{
+            border-radius: 10%;
+        }
+
+        .tags {
+
+            border-radius: 25px;
+            width: 10px;
+            height: 10px;
+            padding: 10px;
+            border: 1px solid grey;
+            margin: 10x;
+            box-sizing: border-box;
+            color: gray;
+        }
+        .button button{
+            background-color: rgb(228, 235, 238);
+            color: blue;
+            border: 0px;
+            border-radius: 25px;
+            padding: 10px;
+            position:absolute;
+            left: 100px;
+            cursor: pointer;
+
+        }
+        .button button:hover{
+            background-color: rgb(204, 223, 240);
+            color: rgb(10, 136, 214);
+        }
+
+    </style>
 </head>
-<body>
+
+<body class="master">
     <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+    <div class="parent">
+        <div>
+            <img src="sam.JPG" alt="Title Image" width="300" height="300" />
+        </div>
+        <div>
+            <span class="tags"> Nature</span>
+            <span class="tags">Lake</span>
+        </div>
+
+        <h1 class="title">Lago Di Braies</h1>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus architecto omnis in reiciendis provident,
+            dolor incidunt repellendus ut eligendi aperiam!</p>
+
+        <div class="button" >
+            <button >Read More</button>
+            
+        </div>
+
+    </div>
+
 </body>
+
 </html>
