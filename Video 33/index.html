@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercise-4</title>
+    <style>
+        :root{
+            --color: rgb(152, 113, 241);
+            --seccolor: rgb(64, 8, 218); 
+            /* --defpad: 23px;
+            --defop: 0.4; */
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .masternav{
+            margin: 5px;
+            padding: 2%;
+            border: 2px solid var(--seccolor);
+            background-color: var(--color);
+            box-sizing: border-box; 
+
+        }
+        .titlenav{
+            background-color: blanchedalmond;
+            padding: 5px;
+            margin: 5px;
+            box-sizing: border-box;
+  
+            
+
+        }
+    </style>
 </head>
 <body>
-    Create a multicolor website which can change color using CSS Variables
+    <!-- Create a multicolor website which can change color using CSS Variables -->
+
+    <!-- usually it is preferred to used list like in lecture 30. I used span just to have some fun
+         Please note if using ul  we need to used flex so that the list is arranged horizontelly 
+         rather than vertically -->
+     <div class="masternav">
+        <span class="titlenav">title1</span>
+        <span class="titlenav">title2</span>
+        <span class="titlenav">title3</span>
+        <span class="titlenav">title4</span>
+
+     </div>
 </body>
 </html>
