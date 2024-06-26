@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-5 Solved self</title>
+    <style>
+        :root {
+            --primary-color: #061872cc;
+            --text-color: white;
+            --secondary-color: #6ea5fccc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            padding: 12px 0;
+            position: sticky;
+            top:0px;
+            z-index: 10;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-weight: bolder;
+
+        }
+
+        ul li a {
+            color: solid var(--text-color);
+            text-decoration: none;
+        }
+
+        .masterbox{
+            border: solid black 1px;
+            width: 100vw;
+            height: 80vh; 
+            padding: 10px;
+            margin: 10px;
+            box-sizing: border-box;
+            position: relative;
+            background-color: green;
+        }
+
+        .leftbox {
+            border: solid black 1px;
+            width: 40vw;
+            height: 60vh;
+            padding: 10px;
+            margin: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 2vw;
+            background-color: peachpuff;
+            
+        }
+
+        .rightbox {
+            border: solid black 1px;
+            width: 40vw;
+            height: 60vh;
+            padding: 10px;
+            margin: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 55vw;
+            background-color: blue;
+
+        }
+        .titlebox{
+            border: solid black 1px;
+            width: 100vw;
+            height: 10vh; 
+            padding: 10px;
+            margin: 10px;
+            box-sizing: border-box;
+            position: relative;
+            border-radius: 20px;
+            text-align: center;
+            font-weight: bolder;
+            font-size: large;
+        }
+        .footer{
+            border: solid black 1px;
+            width: 100vw;
+            height: 10vh; 
+            padding: 10px;
+            margin-top: 50px;
+            /* margin: 10px; */
+            box-sizing: border-box;
+            position: relative;
+            background-color: grey;
+            padding: 12px 0;
+        }
+        .icon{
+            border: solid black 1px;
+            width: 10vw;
+            height: 10vh; 
+            padding: 10px;
+            margin: 10px;
+            box-sizing: border-box;
+            position: relative;
+            background-color: orange;
+            padding: 12px 0;
+            border-radius: 100%;
+            position: fixed;
+            bottom: 2px;
+            right: 2px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="masterbox">
+        <div class="leftbox">
+
+        </div>
+        <div class="rightbox">
+
+        </div>
+    </div>
+    <div class="titlebox">
+        <p>Welcome to this Sigma Web Development Express</p>
+    </div>
+    <div class="footer">
+        <p></p>
+    </div>
+    <div class="icon">
+        <p></p>
+    </div>
+</body>
+
+</html>
