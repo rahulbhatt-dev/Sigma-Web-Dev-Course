@@ -79,22 +79,29 @@
 
         }
 
-        .tilesmaster {
+        .second {
+            margin: auto;
             margin-top: 100px;
-            /* margin: 25px; */
             width: 100vw;
             height: 100vh;
+            text-align: center;
+        }
+
+        .tilesmaster {
+            /* margin-top: 100px; */
+            /* margin: 25px; */
+            text-align: center;
             display: grid;
-            gap: 5px;
+            gap: 6px;
             grid-template-columns: repeat(3, 300px);
             /* grid-template-rows: repeat(2, 80px); */
             justify-content: center;
-            align-content: baseline;
+            /* align-content: baseline; */
+            text-align: center;
         }
 
         .tilesmaster .tiles {
-            margin: 10px;
-            padding: 10px;
+            margin: auto;
             border: px solid black;
             width: 290px;
             height: 120px;
@@ -137,6 +144,18 @@
             box-sizing: border-box;
 
         }
+
+        @media screen and (max-width: 1145px) {
+            .tilesmaster {
+                grid-template-columns: 1fr;
+                display: grid;
+                gap: 5px;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+            }
+
+        }
     </style>
 </head>
 
@@ -170,73 +189,78 @@
                 <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="">
             </div>
         </div>
-
-        <div class="tilesmaster">
-            <div class="tiles">
-                <h3>English 1</h3>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button32">Download 32-bit</button>
-                </a>
-                <button class="button64">Download 64-bit</button>
-                </a>
-
-            </div>
-            <div class="tiles">
-                <h3>English 2</h3>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button32">Download 32-bit</button>
-                </a>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button64">Download 64-bit</button>
-                </a>
-            </div>
-            <div class="tiles">
-                <h3>English 3</h3>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button32">Download 32-bit</button>
-                </a>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button64">Download 64-bit</button>
-                </a>
-            </div>
-            <div class="tiles">
-                <h3>English 4</h3>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button32">Download 32-bit</button>
-                </a>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button64">Download 64-bit</button>
-                </a>
-            </div>
-            <div class="tiles">
-                <h3>English 5</h3>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button32">Download 32-bit</button>
-                </a>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button64">Download 64-bit</button>
-                </a>
-            </div>
-            <div class="tiles">
-                <h3>English 6</h3>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button32">Download 32-bit</button>
-                </a>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button64">Download 64-bit</button>
-                </a>
-            </div>
-            <div class="tiles">
-                <h3>English 7</h3>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button32">Download 32-bit</button>
-                </a>
-                <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
-                    <button class="button64">Download 64-bit</button>
-                </a>
-            </div>
-        </div>
     </header>
+
+    <main>
+        <section class="second">
+
+            <div class="tilesmaster">
+                <div class="tiles">
+                    <h3>English 1</h3>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button32">Download 32-bit</button>
+                    </a>
+                    <button class="button64">Download 64-bit</button>
+                    </a>
+
+                </div>
+                <div class="tiles">
+                    <h3>English 2</h3>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button32">Download 32-bit</button>
+                    </a>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button64">Download 64-bit</button>
+                    </a>
+                </div>
+                <div class="tiles">
+                    <h3>English 3</h3>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button32">Download 32-bit</button>
+                    </a>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button64">Download 64-bit</button>
+                    </a>
+                </div>
+                <div class="tiles">
+                    <h3>English 4</h3>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button32">Download 32-bit</button>
+                    </a>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button64">Download 64-bit</button>
+                    </a>
+                </div>
+                <div class="tiles">
+                    <h3>English 5</h3>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button32">Download 32-bit</button>
+                    </a>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button64">Download 64-bit</button>
+                    </a>
+                </div>
+                <div class="tiles">
+                    <h3>English 6</h3>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button32">Download 32-bit</button>
+                    </a>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button64">Download 64-bit</button>
+                    </a>
+                </div>
+                <div class="tiles">
+                    <h3>English 7</h3>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button32">Download 32-bit</button>
+                    </a>
+                    <a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe">
+                        <button class="button64">Download 64-bit</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
