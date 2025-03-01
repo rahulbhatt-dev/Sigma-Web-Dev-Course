@@ -31,6 +31,7 @@ let obj = {
 if (random > 0.1) {
     // Perform correct calculation
     console.log(`The result is ${a} ${c} ${b}`)
+    //prefer not to use eval in production
     alert(`The result is ${eval(`${a} ${c} ${b}`)}`)
     
 }

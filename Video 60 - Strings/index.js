@@ -12,6 +12,8 @@ console.log(a.length)
 let real_name = "Harry"
 let friend = "Rohan"
 console.log("His name is " + real_name + " and his friends name is " + friend)
+
+//template Literals
 console.log(`His name is ${real_name} and his friends name is ${friend}`)
 
 let b = "ShivamSh"
