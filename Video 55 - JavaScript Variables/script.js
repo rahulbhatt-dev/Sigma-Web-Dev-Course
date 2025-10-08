@@ -6,7 +6,7 @@ let b = 6;
 let c = "Harry";
 let _a = "Shubham";
 // var 55a = "Rohan"; // Not Allowed
-
+ 
 // console.log(a +  b + 8);
 // console.log(typeof a, typeof b, typeof c);
 {
@@ -24,6 +24,11 @@ let z = 3.55;
 const p = true;
 let q = undefined;
 let r = null;
+
+
+// var--> gobal scope
+// let--> block scope
+
 
 console.log(x, y, z, p, q, r)
 console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r)
