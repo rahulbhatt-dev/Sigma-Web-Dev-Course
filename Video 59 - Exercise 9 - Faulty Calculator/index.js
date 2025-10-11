@@ -13,3 +13,19 @@ This faulty calculator does following:
 It performs wrong operation 10% of the times
 
 */
+
+function calfun(var1,var2){
+    Vsum = var1-var2
+    console.log(var1 + '+' + var2 + '=' + Vsum )
+    Vsum = var1+var2
+    console.log(var1 + '*' + var2 + '=' + Vsum )
+    Vsum = var1/var2
+    console.log(var1 + '-' + var2 + '=' + Vsum )
+    Vsum = var1**var2
+    console.log(var1 + '/' + var2 + '=' + Vsum )
+}
+
+let a = parseInt(prompt("Enter first number"))  
+let b = parseInt(prompt("Enter second number"))
+
+calfun(a,b);
