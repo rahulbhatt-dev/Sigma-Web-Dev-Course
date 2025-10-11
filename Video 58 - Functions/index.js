@@ -21,6 +21,9 @@ console.log("The sum of these numbers is: ", result2)
 console.log("The sum of these numbers is: ", result3)
 
 
+// Arrow funtion: thi help to pass funtion as a parameter to another funtion. 
+// We'll learn more abt this in future
+
 const func1 = (x)=>{
     console.log("I am an arrow function", x)
 }
