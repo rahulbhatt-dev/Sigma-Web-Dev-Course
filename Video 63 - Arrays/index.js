@@ -1,3 +1,5 @@
+//Arrays are mutable
+
 let arr = [1, 2, 4, 5, 7]
 //  Index  0, 1, 2, 3, 4
 

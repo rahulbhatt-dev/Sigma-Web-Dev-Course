@@ -27,3 +27,5 @@ console.log(b.replace("Sh", "77"))
 console.log(b.concat(a, "Aishwariya", "Rahul", "Priya"))
 
 console.log(b)
+
+//Strings are immutable
