@@ -21,3 +21,8 @@ console.log(arr.join(" and "))
 // numbers.splice(1, 3)  
 // numbers.splice(1, 3, 222, 333) 
 // (4) [1, 222, 333, 5]
+
+
+
+//Shift -> pop ka bhai , poping element from 0
+//unshift-> push ka bhai,pushing element from 0
