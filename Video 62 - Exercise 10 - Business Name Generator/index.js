@@ -37,9 +37,12 @@ let Another = {
     3:"Hub"
 }
 
-let var1 = Math.floor((Math.random() *(3-1 +1 ) )+1);
-let var2 = Math.floor((Math.random() *(3-1 +1 ) )+1);
-let var3 = Math.floor((Math.random() *(3-1 +1 ) )+1);
+
+let min = 1;
+let max = 3;
+let var1 = Math.floor((Math.random() *(max-min +1 ) )+min);
+let var2 = Math.floor((Math.random() *(max-min +1 ) )+min);
+let var3 = Math.floor((Math.random() *(max-min +1 ) )+min);
 
 console.log(var1 + " "+var2+ " "+var3);
 
